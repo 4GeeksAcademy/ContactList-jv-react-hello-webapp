@@ -6,7 +6,7 @@ import {createRoot} from 'react-dom/client'
 import "../styles/index.css";
 
 //import your own components
-import Layout from './layout.js'
+import Layout from './layout.jsx'  // cuando es jsx no es necesario poner la extencion 
 
 //
 const root = createRoot(document.querySelector("#app"))
